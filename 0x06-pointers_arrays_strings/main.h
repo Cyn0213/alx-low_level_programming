@@ -10,7 +10,7 @@ void reverse_array(int *a, int n);
 void print_number(int n);
 void print_buffer(charr *b, int size);
 int _strcmp(char *sl, char *s2);
-char *_strncat(char *dest, char *src);
+char *_strcat(char *dest, char *src);
 char *_strncat(char *dest, char *src, int n);
 char *_strncpy(char *dest, char *src, int n);
 char *string _toupper(char *);

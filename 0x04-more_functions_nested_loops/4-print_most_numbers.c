@@ -5,12 +5,12 @@
  * Return: returns nothing
  */
 
-void print_most_number(void)
+void print_most_numbers(void)
 {
 	int number;
-	for (number = 48; number < 58; number++)
+	for (number = 48; number < 48; number++)
 	{
-		if ((number ==50) || (number == 52))
+		if ((number == 50) || (number == 52))
 		{
 			continue;
 		}
@@ -18,4 +18,3 @@ void print_most_number(void)
 	}
 	_putchar(10);
 }
-

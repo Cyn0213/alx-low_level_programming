@@ -10,7 +10,7 @@ int main(void)
 	int p = 100;
 	int i;
 
-	i=l;
+	i=1;
 	while (i <= p)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
